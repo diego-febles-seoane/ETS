@@ -1,79 +1,327 @@
-# Proyecto Biblioteca
+# tarea-diagramas
+## Ejercicio 1: Biblioteca
 
-## Diagrama casp de uso de la biblioteca
-
-<img src="Diagrama Pruebas.png" width="600" height="375">
-
-## Especificaciones de Casos de Uso de la biblioteca
-
-### Actores
-
-#### Usuario
+<img src="Ejercicio1.drawio.png">
 
 |  Actor | Usuario |
 |---|---|
-| Descripción  | Usuario comun de la biblioteca  |
-| Características  | |
-| Relaciones | Registrar Prestamo |
-| Referencias | Buscar libro, Solicitar Prestamo |   
-|  Notas |  |
-| Autor  | Diego Febles Seoane |
-|Fecha | 29/10/2024 |
+| Descripción  | _Es un usuario que puede realizar algunas acciones_  |
+| Características  | __ |
+| Relaciones | _Devolver libro_  |
+| Referencias | _Buscar libro,pedir prestado un libro, devolver libro_ |
+|  Notas |  __ |
+| Autor  | _Diego Febles Seoane_ |
+|Fecha | _6/11/2024_ |
 
 |  Atributo |||
 |---|---|---|
 | _Nombre_  | _Descripción_  | _Tipo_ |
 | | |
 
-#### Bibliotecario
+---
 
 |  Actor | Bibliotecario |
 |---|---|
-| Descripción  | Bibliotecario de la biblioteca  |
-| Características  | El Bibliotecario realiza las mismas acciones que el Usuario y las acciones |
-| Relaciones | Registrar Prestamo |
-| Referencias | Buscar libro, Solicitar Prestamo, Registrar Prestamo |   
-|  Notas |  |
-| Autor  | Diego Febles Seoane |
-|Fecha | 29/10/2024 |
+| Descripción  | _Es el administrador de la biblioteca_  |
+| Características  | __ |
+| Relaciones | _Devolver libro_  |
+| Referencias | _Buscar libro,pedir prestado un libro, devolver libro, Gestionar inventario de libros,Acualizar estado de prestamo_ |
+|  Notas |  __ |
+| Autor  | _Diego Febles Seoane_ |
+|Fecha | _6/11/2024_ |
 
 |  Atributo |||
 |---|---|---|
 | _Nombre_  | _Descripción_  | _Tipo_ |
 | | |
 
-#### Sistema Notificacion
+---
 
-|  Actor | Sistema de Notificacion |
-|---|---|
-| Descripción  | Sistema de Notificacion de la biblioteca |
-| Características  |  |
-| Relaciones |  |
-| Referencias | Enviar Notificacion, Recordatorio devolucion |   
-|  Notas |  |
-| Autor  | Diego Febles Seoane |
-|Fecha | 29/10/2024 |
-
-|  Atributo |||
-|---|---|---|
-| _Nombre_  | _Descripción_  | _Tipo_ |
-| | |
-
-### Casos de Uso
-
-
-#### Buscar libro
-
-|  Caso de Uso	CU | Buscar libro |
+|  Caso de Uso	CU | Buscar libro  |
   |---|---|
-  | Fuentes  | Este caso de uso se sustenta gracais al [documento]  |
-  | Actor  |  Usuario, Bibliotecario |
-  | Descripción | _Descripción del caso de uso_  |
-  | Flujo básico | _Descripción paso a paso de la ejecución. (1->2->3.)_ |
-  | Pre-condiciones | _Que debe ocurrir con anterioridad_  |  
-  | Post-condiciones  | _Que debe ocurrir con posterioridad_  |  
-  |  Requerimientos | _Que debe de exister para que el caso de uso se ejecute. Ej: Tarjeta de crédito_  |
-  |  Notas |  _Notas adicionales_ |
-  | Autor  | _Quien desarrolla la especificación del actor_ |
-  |Fecha | _Fecha de la especificación_ |
-  |||
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Usuario, Bibliotecario_ |
+  | Descripción | _El actor busca un libro en la biblioteca_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  |  Caso de Uso	CU | Pedir Prestamo |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Usuario, Bibliotecario_ |
+  | Descripción | _El actor pide un libro en la biblioteca_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  ---
+
+  |  Caso de Uso	CU | Devolver un libro  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Usuario, Bibliotecario_ |
+  | Descripción | _El actor devuelve un libro de la biblioteca_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _Haber pedido un libro anteriormente_  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  ---
+
+  |  Caso de Uso	CU | Buscar libro  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Usuario, Bibliotecario_ |
+  | Descripción | _El actor busca un libro en la biblioteca_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  ---
+
+  |  Caso de Uso	CU | Gestionar inventario de libros  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Bibliotecario_ |
+  | Descripción | _El actor modifica el inventario de la biblioteca_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  ---
+
+  ## Ejercicio 2: Sistema de Compras en Línea
+  <img src="Ejercicio2.drawio.png">
+  
+|  Actor | Cliente |
+|---|---|
+| Descripción  | _Es un usuario que puede realizar algunas acciones_  |
+| Características  | __ |
+| Relaciones | __  |
+| Referencias | _Buscar productos, añadir productos al carrito, realizar pedido, realizar pago_ |
+|  Notas |  __ |
+| Autor  | _Diego Febles Seoane_ |
+|Fecha | _6/11/2024_ |
+
+|  Atributo |||
+|---|---|---|
+| _Nombre_  | _Descripción_  | _Tipo_ |
+| | |
+
+---
+
+|  Actor | Administrador |
+|---|---|
+| Descripción  | _Es un usuario que gestiona el sistema_  |
+| Características  | __ |
+| Relaciones | __  |
+| Referencias | _Buscar productos, añadir productos al carrito, realizar pedido, realizar pago, gestionar catálogo de productos_ |
+|  Notas |  __ |
+| Autor  | _Diego Febles Seoane_ |
+|Fecha | _6/11/2024_ |
+
+|  Atributo |||
+|---|---|---|
+| _Nombre_  | _Descripción_  | _Tipo_ |
+| | |
+
+---
+
+  |  Caso de Uso	CU | Buscar productos  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Cliente, administrador_ |
+  | Descripción | _El actor busca un producto en el sistema_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  ---
+
+  |  Caso de Uso	CU | Añadir productos al carrito  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Cliente, administrador_ |
+  | Descripción | _El actor agrega un producto a su lista de compra_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _Haber buscado un producto_  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  ---
+  |  Caso de Uso	CU | Realizar pedido  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Cliente, administrador_ |
+  | Descripción | _El actor apide lo que hay en su lista de compra_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _Haber añadido un producto minimo al carrito_  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  ---
+
+  |  Caso de Uso	CU | Realizar pago  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Cliente, administrador_ |
+  | Descripción | _El actor paga lo que hay en su lista de compra_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _Haber riealizado un pedido_  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  ---
+
+  |  Caso de Uso	CU | Gestionar catálogo de productos  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Cliente, administrador_ |
+  | Descripción | _El actor paga lo que hay en su lista de compra_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _Haber riealizado un pedido_  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  ## Ejercicio 3: Sistema de gestion de cursos en linea
+
+<img src="Ejercicio3.png">
+
+|  Actor | Estudiante |
+|---|---|
+| Descripción  | _Usuario comun del sistema_  |
+| Características  | __ |
+| Relaciones | __  |
+| Referencias | _Inscribirse en curso, ver material del curso, realizar evaluaciones_ |
+|  Notas |  __ |
+| Autor  | _Diego Febles Seoane_ |
+|Fecha | _6/11/2024_ |
+
+|  Atributo |||
+|---|---|---|
+| _Nombre_  | _Descripción_  | _Tipo_ |
+| | |
+
+---
+
+|  Actor | Profesor |
+|---|---|
+| Descripción  | _Usuario administrador de los cursos_  |
+| Características  | __ |
+| Relaciones | _Realiza las mismas acciones del alumno más las especificas_  |
+| Referencias | _Inscribirse en curso, ver material del curso, realizar evaluaciones, crear curso, calificar evaluacion, actualizar contenido del curso_ |
+|  Notas |  __ |
+| Autor  | _Diego Febles Seoane_ |
+|Fecha | _6/11/2024_ |
+
+|  Atributo |||
+|---|---|---|
+| _Nombre_  | _Descripción_  | _Tipo_ |
+| | |
+
+---
+
+  |  Caso de Uso	CU | Inscribirse en curso  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Estudiante, profesor_ |
+  | Descripción | _El usuario se inscribe a un curso_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  |  Caso de Uso	CU | Ver material del curso  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Estudiante, profesor_ |
+  | Descripción | _El usuario ve el material del curso_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _estar en el curso_  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  |  Caso de Uso	CU | Realizar evaluaciones  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Estudiante, profesor_ |
+  | Descripción | _El usuario realiza evaluaciones_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | _Estar en un curso_  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  |  Caso de Uso	CU | Crear curso  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Profesor_ |
+  | Descripción | _El usuario crea un curso_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  |  Caso de Uso	CU | Calificar evaluaciones  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
+  | Actor  |  _Profesor_ |
+  | Descripción | _El usuario califica evaluaciones_  |
+  | Flujo básico | __ |
+  | Pre-condiciones | __  |
+  | Post-condiciones  | __  |
+  |  Requerimientos | __  |
+  |  Notas |  __ |
+  | Autor  | _Diego Febles Seoane_ |
+  |Fecha | _6/11/2024_ |
+
+  |  Caso de Uso	CU | Actualizar contenido del curso  |
+  |---|---|
+  | Fuentes  | _[Documento]()_  |
